@@ -15,6 +15,6 @@ end
 
 
 
-def reduce (array)
-
+def reduce (array, value*)
+  value
 end
