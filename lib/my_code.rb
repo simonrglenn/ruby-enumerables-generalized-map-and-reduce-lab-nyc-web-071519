@@ -18,7 +18,7 @@ end
 def reduce (array, value* )
   i = 0
   while i < array.length do
-    new.push(yield(value))
+    yield(value)
     i +=1
   end
 end
