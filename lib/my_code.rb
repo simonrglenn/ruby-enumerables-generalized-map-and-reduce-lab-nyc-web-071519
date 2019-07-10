@@ -4,6 +4,11 @@ def map (array)
 
 end
 
-def reduce (array)
 
+
+
+
+
+def reduce (array)
+  
 end
