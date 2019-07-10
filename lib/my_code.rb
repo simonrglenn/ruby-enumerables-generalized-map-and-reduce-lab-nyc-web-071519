@@ -18,14 +18,3 @@ end
 def reduce (array)
 
 end
-
-
-def map(array)
-  new_array = []
-  i = 0
-  while i < array.length
-    new_array << yield(array[i])
-    i += 1
-  end
-  return new_array
-end
